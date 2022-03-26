@@ -70,7 +70,7 @@ footer
 
 footer:not(:hover)
 {
-    transform: translateX(-100%);
+    transform: translateX(-85%);
     background-image: url("./Photos/RightArrow.png");
     background-size: contain ;
     background-repeat: no-repeat;
