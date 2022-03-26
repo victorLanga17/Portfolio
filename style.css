@@ -1,0 +1,136 @@
+nav 
+{
+    position: sticky;
+    top: 8px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5%;
+    border-right: crimson 10px inset;
+    border-bottom: crimson 10px inset;
+    background-color: white;
+}
+
+#menu 
+{
+    display: inline-block;
+    margin: 5% 5%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#presentation
+{
+    padding-top: 120px;
+    padding-bottom: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    background-image: url("./Photos/Space.jpg");
+}
+
+#aboutme
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#projects
+{
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#newproject
+{
+    background-image: url("./Photos/FirstConsoleGames.png");
+    background-repeat: no-repeat;
+    background-size: 190px 192px;
+    background-position-x: 800px;
+    background-position-y: 40%;
+}
+
+footer 
+{
+    width: 30%;
+    position: sticky;
+    bottom: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: transform 750ms;
+    background-color: yellow;
+    background-image: none;
+    transition: transform 500ms;
+}
+
+footer:not(:hover)
+{
+    transform: translateX(-400px);
+    background-image: url("./Photos/RightArrow.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: DejaVu Sans Mono, monospace;
+    background: crimson;
+}
+
+h2
+{
+    font-size: 30px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: crimson;
+}
+
+h3
+{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+p
+{
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+a.menulink:link 
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+a.menulink:visited
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+a.menulink:hover 
+{
+    text-decoration: none;
+    color: crimson;
+    font-size: large;
+    font-weight: bold;
+}
+
+a.menulink:active 
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
